@@ -1,0 +1,20 @@
+**OVERVIEW**
+Program demonstrating interprocess communication through shared memory, Synchronization using semaphores
+
+This repo consists of several separate programs for creating and maintaining a Student database. The users of this database are the student advisors and students. The advisors have the right to change the entries in the database. Students only have the right to read the database. Several students and advisors are allowed to access the database concurrently. Each student entry in the database has the following fields: Name, Student ID, Address, and Telephone Number.
+
+***INSTRUCTIONS ON HOW TO COMPILE AND RUN THE PROGRAMS***
+
+1. Run terminal and navigate to the root folder of this file.
+2. Type "make". This would compile the code.
+3. Type "./{FILENAME}" to run each program. e.g ./load or ./print
+
+
+**NOTE**
+
+1.The student data is stored in the file called person.dat. this was created using the code found in data_writer.c
+
+2. Then you run print, maximize terminal to get the optimal view
+
+3. The query program allows multiple retries
+
